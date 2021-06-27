@@ -24,4 +24,10 @@ REST APIS INSIDE
 4. Api to get users list using admin role privilege using jwt token
 5. Api to delete user using jwt token for admin privilege
 
-
+CRUD OPERATIONS 
+---------------------
+1. List Student data
+2. add new student
+3. delete student
+4. search class/view class
+5. edit student
