@@ -19,7 +19,7 @@ PHPMYADMIN: 5.1.1 (up to date)
 REST APIS INSIDE
 --------------------
 1. Register Rest Api using jwt token
-2. Login Rest Api using Jwt athontication token
+2. Login Rest Api using Jwt authentication token
 3. Api to Balanced Paranthesis 
 4. Api to get users list using admin role privilege using jwt token
 5. Api to delete user using jwt token for admin privilege
