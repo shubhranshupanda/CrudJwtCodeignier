@@ -31,3 +31,7 @@ CRUD OPERATIONS
 3. delete student
 4. search class/view class
 5. edit student
+
+UPLOAD DATA
+-------------------------
+1. upload excel data to database
