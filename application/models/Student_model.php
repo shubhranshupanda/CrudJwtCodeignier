@@ -56,5 +56,18 @@ class Student_Model extends CI_Model{
             $data=$this->db->query("SELECT * FROM studentdata where ClassName='$class_name'");
             return $data->result();
         }
+        
+        function save_excel_data($data){
+            $this->db->trans_start();
+            $this->db->insert('studentdata',$data);
+            $this->db->trans_complete();
+            if( $this->db->trans_status() == FALSE){
+                $status['status'] = FALSE;
+                return $status;
+            }
+            $status['status'] = TRUE;
+            //print_r( $data);exit;
+            return $status;
+        }
 	
 }
